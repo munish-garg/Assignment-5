@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+body{
+    overflow-x: hidden;
+}
 
 nav ul li a{
     font-family: 'Times New Roman', Times, serif;
@@ -30,4 +35,19 @@ article ul{
     list-style: none;
 }
 
+.welcome-page{
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+    overflow-x: auto;
+    /* background-color: red; */
+    background-image: url('./laptop.jpg');
+    background-position: center;
+    background-size: cover;
+}
 
+.welcome-page h1{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    margin-top: 40vh;
+}
