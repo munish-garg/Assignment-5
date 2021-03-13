@@ -40,14 +40,19 @@ article ul{
     width: 100vw;
     height: 90vh;
     overflow-x: auto;
-    /* background-color: red; */
     background-image: url('./laptop.jpg');
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .welcome-page h1{
     font-family: 'Merriweather', serif;
     text-align: center;
     margin-top: 40vh;
+    color: yellow;
+}
+
+.about-article{
+    background-attachment: fixed;
 }
