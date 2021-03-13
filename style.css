@@ -3,6 +3,9 @@
 
 body{
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 nav ul li a{
@@ -94,4 +97,20 @@ article ul{
     #about-article .row div:nth-of-type(2){
         transform: translateY(1%);
     }    
+}
+
+#education-article{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8ZWR1Y2F0aW9ufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;  
+}
+
+#education-article h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
