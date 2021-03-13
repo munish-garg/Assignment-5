@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="#">
                 <i class="fab fa-html5"></i>
             </a>
@@ -21,10 +21,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active mr-4">
-                  <a class="nav-link" href="#">Home</a>
+                  <a class="nav-link" href="#welcome-page">Home</a>
                 </li>
                 <li class="nav-item active mr-4">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="#about-article">About</a>
                 </li>
                 <li class="nav-item active mr-4">
                   <a class="nav-link" href="#">Education</a>
@@ -37,16 +37,16 @@
         </nav>
     </header>
     <section>
-        <article class="welcome-page">
+        <article id="welcome-page">
             <h1>WELCOME TO MY PORTFOLIO</h1>
         </article>
-        <article class="about-article">
+        <article id="about-article">
             <div class="container">
-                <div class="row mt-4">
-                    <div class="col-lg-4 col-md-6 col-12">
+                <div class="row">
+                    <div class="col-lg-4 col-12">
                         <img src="./personalImage.jpg" alt="Personal Image">
                     </div>
-                    <div class="col-lg-8 col-md-6 col-12">
+                    <div class="col-lg-8 col-12">
                         <h3>ABOUT ME</h3>
                         <ul>
                             <li>My name is Munish Kumar Garg and I am currently studying in 3rd year of Computer Engineering and belongs to Faridabad, Haryana.</li>
@@ -58,6 +58,9 @@
                     </div>
                 </div>
             </div>
+        </article>
+        <article id="education-article">
+          
         </article>
     </section>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
