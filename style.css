@@ -42,7 +42,7 @@ img{
     border-radius: 5px;
 }
 
-article ul{
+#about-article ul{
     list-style: none;
     font-family: 'Times New Roman', Times, serif;
     margin-left: 0px;
@@ -113,4 +113,20 @@ article ul{
 #education-article h1{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+}
+
+#education-article .container{
+    height: inherit;
+}
+
+#education-article .container .row{
+    transform: translateY(18%);
+}
+
+#education-article .container .row div{
+    margin: auto;
+}
+
+.card:hover{
+    transform: scale(1.05);
 }
