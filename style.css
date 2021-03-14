@@ -36,7 +36,7 @@ h3{
     font-family: 'Merriweather', serif;
 }
 
-img{
+#about-article img{
     width: 80%;
     transform: translateX(25%);
     border-radius: 5px;
@@ -115,18 +115,10 @@ img{
     font-family: 'Times New Roman', Times, serif;
 }
 
-#education-article .container{
-    height: inherit;
-}
-
-#education-article .container .row{
-    transform: translateY(18%);
-}
-
-#education-article .container .row div{
+#education-article .card{
     margin: auto;
 }
 
-.card:hover{
+#education-article .card:hover{
     transform: scale(1.05);
 }
