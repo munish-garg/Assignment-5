@@ -88,17 +88,6 @@ h3{
     transform: translateY(60%);
 }
 
-@media screen and (max-width: 992px){
-    #about-article .row img{
-        transform: translateY(0%);
-        transform: translateX(15%);
-        margin-top: 10px;
-    }
-    #about-article .row div:nth-of-type(2){
-        transform: translateY(1%);
-    }    
-}
-
 #education-article{
     position: relative;
     width: 100vw;
@@ -121,4 +110,63 @@ h3{
 
 #education-article .card:hover{
     transform: scale(1.05);
+}
+
+#education-article .card{
+    height: 497.24px;
+    transform: translateY(30px);
+}
+
+#footer{
+    width: 100vw;
+    height: 100px;
+    background-color: black;
+}
+
+#footer ul, a{
+    color: white !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#footer ul:hover, a:hover{
+    color: yellow !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+}
+
+#footer h6{
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media screen and (max-width: 992px){
+    #about-article .row img{
+        transform: translateY(0%);
+        transform: translateX(15%);
+        margin-top: 10px;
+    }
+    #about-article .row div:nth-of-type(2){
+        transform: translateY(1%);
+    } 
+    #education-article{
+        height: 1650px;
+    } 
+    #footer{
+        height: 165px;
+    }
+    #about-article{
+        height: 1150px;
+    }
+    #footer ul li{
+        margin-right: 20px;
+    }  
 }
