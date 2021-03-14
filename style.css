@@ -136,7 +136,7 @@ h3{
     flex-wrap: wrap;
 }
 
-#footer ul:hover, a:hover{
+#footer a:hover{
     color: yellow !important;
     text-decoration: none !important;
     cursor: pointer !important;
@@ -174,4 +174,10 @@ h3{
 #about-article h3{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
+}
+
+#footer h6:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    
 }
